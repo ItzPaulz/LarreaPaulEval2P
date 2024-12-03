@@ -9,7 +9,7 @@ namespace LarreaPaulEval2P.Repository
 {
     public class LarreaRepositorio : ILarrea
     {
-        public bool CreateRecarga(Larrea recarga)
+        public bool CreateRecarga(Larrea telefono)
         {
             throw new NotImplementedException();
         }
@@ -21,7 +21,7 @@ namespace LarreaPaulEval2P.Repository
         {
             throw new NotImplementedException();
         }
-        public bool UpdateRecarga(Larrea recarga)
+        public bool UpdateRecarga(Larrea telefono)
         {
             throw new NotImplementedException();
         }
