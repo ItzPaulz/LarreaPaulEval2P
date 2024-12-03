@@ -9,14 +9,14 @@
 
     <TabBar>
         <ShellContent
-        Title="YO PAUL"
+        Title="Recargas"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Icon="{OnPlatform 'ldu.png'}" />
+        Icon="{OnPlatform 'telefono.png'}" />
 
         <ShellContent
-        Title="Recargas"
+        Title="MI APGINA"
         ContentTemplate="{DataTemplate local:NewContent1}"
-        Icon="{OnPlatform 'telefono.png'}" />
+        Icon="{OnPlatform 'ldu.png'}" />
     </TabBar>
 
 </Shell>

@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace AlmeidaSebastianExamenProgreso2.Repositories
+namespace LarreaPaulEval2P.Repository
 {
-    public class Salmeida_RepositoryRecarga : ILarrea
+    public class LarreaRepositorio : ILarrea
     {
         public bool CreateRecarga(Larrea recarga)
         {
@@ -25,5 +25,6 @@ namespace AlmeidaSebastianExamenProgreso2.Repositories
         {
             throw new NotImplementedException();
         }
+
     }
 }
