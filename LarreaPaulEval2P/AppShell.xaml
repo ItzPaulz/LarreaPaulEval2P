@@ -7,9 +7,16 @@
     Shell.FlyoutBehavior="Disabled"
     Title="LarreaPaulEval2P">
 
-    <ShellContent
-        Title="Home"
+    <TabBar>
+        <ShellContent
+        Title="YO PAUL"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Icon="{OnPlatform 'ldu.png'}" />
+
+        <ShellContent
+        Title="Recargas"
+        ContentTemplate="{DataTemplate local:NewContent1}"
+        Icon="{OnPlatform 'telefono.png'}" />
+    </TabBar>
 
 </Shell>
