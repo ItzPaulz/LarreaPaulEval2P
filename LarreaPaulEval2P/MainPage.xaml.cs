@@ -5,8 +5,9 @@ namespace LarreaPaulEval2P
 {
     public partial class MainPage : ContentPage
     {
-        
+        private void GuardarRecarga_Clicked(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }
